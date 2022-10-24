@@ -9,7 +9,7 @@ function convertir() {
     let reales = 30;
 
     if (document.getElementById("coinUno").checked) {
-        resultado = valores * dolar;
+        resultado = valores / dolar;
         alert("El cambio de Pesos a Dolares es: $" + resultado.toFixed(2));
     }
     else if (document.getElementById("coinDos").checked) {
